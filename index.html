@@ -10,20 +10,133 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel=" stylesheet" href="./css/styles.css">
+    <link rel=" stylesheet" href="css/style.css">
 </head>
+<body>
 <button data-modal-open class="btn" type="button">Download</button>
 <div data-modal class="backdrop is-hidden">
     <div class="modal">
         <button data-modal-close class="btn-close" type="button">
-            <svg class="btn-close-icon" width="18" height="18">
-                <use xlink:href="./images/sprite.svg#icon-close"></use>
+            <svg class="btn-icon-Vector" width="16" height="16">
+                <use xlink:href="./images/sprite.svg#icon-Vector"></use>
             </svg>
         </button>
+        <h4 class="modal__title">Download</h4>
+        <div class="modal__checker-wrapper">
+            <div class="modal__checker">
+                <svg class="file_download" width="80" height="105">
+                    <use xlink:href="./images/sprite.svg#icon-file_download"></use>
+                </svg>
+                <p class="modal__plan-title">Download free plan</p>
+                <ul class="modal__plan-items-container">
+                    <li class="modal__plan-item">
+                        <svg class="modal__plan-item-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-right_arrow"></use>
+                        </svg>
+                        <p class="modal__plan-item-text">Donec posuere augue venenatis, aliquet</p>
+                    </li>
+                    <li class="modal__plan-item">
+                        <svg class="modal__plan-item-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-right_arrow"></use>
+                        </svg>
+                        <p class="modal__plan-item-text">Donec posuere augue venenatis, aliquet</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal__checker">
+                <svg class="file_download" width="80" height="105">
+                    <use xlink:href="./images/sprite.svg#icon-file_download"></use>
+                </svg>
+                <p class="modal__plan-title">Download free plan</p>
+                <ul class="modal__plan-items-container">
+                    <li class="modal__plan-item">
+                        <svg class="modal__plan-item-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-right_arrow"></use>
+                        </svg>
+                        <p class="modal__plan-item-text">Donec posuere augue venenatis, aliquet</p>
+                    </li>
+                    <li class="modal__plan-item">
+                        <svg class="modal__plan-item-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-right_arrow"></use>
+                        </svg>
+                        <p class="modal__plan-item-text">Donec posuere augue venenatis, aliquet</p>
+                    </li>
+                    <li class="modal__plan-item">
+                        <svg class="modal__plan-item-icon" width="14" height="14">
+                            <use xlink:href="./images/sprite.svg#icon-right_arrow"></use>
+                        </svg>
+                        <p class="modal__plan-item-text">Donec posuere augue venenatis, aliquet</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="modal-description">Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque neque. In sit amet lectus non lacus</p>
+        <div class="modal__group">
+            <ul class="modal__group-container modal__group-container-first">
+                <li class="modal__group-item">
+                    <svg class="modal__group-item-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-app_name"></use>
+                    </svg>
+                    <p class="modal__group-item-title">App name</p>
+                    <span class="modal__group-item-text">Mobileapp.layout</span>
+                </li>
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-license"></use>
+                    </svg>
+                    <p class="modal__group-item-title">License</p>
+                    <span class="modal__group-item-text">Free</span>
+                </li>
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-author"></use>
+                    </svg>
+                    <p class="modal__group-item-title">Author</p>
+                    <span class="modal__group-item-text">Mobile Marrket App.com</span>
+                </li>
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-data"></use>
+                    </svg>
+                    <p class="modal__group-item-title">Data</p>
+                    <span class="modal__group-item-text">21.02.2022</span>
+                </li>
+            </ul>    
+            <ul class="modal__group-container">
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-oc"></use>
+                    </svg>
+                    <p class="modal__group-item-title">OC</p>
+                    <span class="modal__group-item-text">Windows</span> 
+                </li>
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-language"></use>
+                    </svg>
+                    <p class="modal__group-item-title">Language</p>
+                    <span class="modal__group-item-text">English</span>   
+                </li>
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-size"></use>
+                        </svg>
+                    <p class="modal__group-item-title">Size</p>
+                    <span class="modal__group-item-text">4.16 MB</span>       
+                </li>
+                <li class="modal__group-item">
+                    <svg class="modal-icon" width="28" height="28">
+                        <use xlink:href="./images/sprite.svg#icon-downloads"></use>
+                    </svg>
+                    <p class="modal__group-item-title">Downloads</p>
+                    <span class="modal__group-item-text">964</span>      
+                </li>
+            </ul>
+        </div>
+        <button class="form-close" type="submit">Download</button>
     </div>
 </div>
 <script src="./js/modal.js"></script>
-<body>
     
 </body>
 </html>
